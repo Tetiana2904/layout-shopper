@@ -1,0 +1,1005 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+}
+
+.header__panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 85px;
+}
+
+.header__logo {
+    width: 172px;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 40px;
+}
+.header__logo:hover {
+    background-color: #c4cfc4;
+    color: #FFFFFF;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.header__form {
+    display: flex;
+    align-items: center;
+}
+
+.header__form input {
+    width: 322px;
+    height: 60px;
+    top: 56px;
+    background-color: white;
+    color: gray;
+     
+    border: none ;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.header__search-input {
+    width: 322px;
+    height: 60px;
+    position: relative;
+    padding-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.header__search {
+    opacity: 0.9;
+    width: 322px;
+    height: 63px;
+    top: 56px;
+    padding: 0px 80px 0 20px;
+}
+.header__search-icon {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    border-radius: 5px;
+    right: 20px;
+    padding: 10px 10px ;
+    background-color:  #10B981;
+    align-items: center;
+    top: 11px;
+}
+.header__search-icon img {
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+}
+
+.header__search:hover {
+    background-color: #dee5de;
+    color: #2B2626;
+    transition: 0.5s;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+
+.header__cart {
+    background-color: white;
+    border: 1px solid #10B981;
+    width: 229px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    color: #2B2626;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header__cart img {
+    width: 16px;
+    height: 19px;
+    margin-right: 20px;
+}
+
+.header__cart:hover {
+    background-color: #418841;
+    color: #FFFFFF;
+}
+
+.header__login {
+    background-color: #10B981;
+    color: white;
+    border-radius: 30px;
+    width: 247px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.header__login img {
+    width: 16px;
+    height: 21px;
+    margin-right: 20px;
+}
+
+.header__login:hover {
+    background-color: #418841;
+    border: 1px solid grey;
+    color: black;
+}
+
+.header__nav {
+    background-color: #10B981;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__list-item {
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    color: #FFFFFF;
+}
+
+.header__list-item:hover {
+    background-color: #418841;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.header__list-item > a {
+    width: 521px;
+    height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    font-size: 20px;
+
+}
+
+.discover{
+    min-height: 680px;
+    font-family: 'Montserrat';
+    
+}
+.discover__panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discover__content{
+    width: 500px;
+    margin-left: 85px;
+    margin-top: 126px;
+}
+.discover__content h1{
+    font-size: 64px;
+    width: 500px;
+    height: 156px;
+    color: #2B2626;
+
+}
+.section__panel-description{
+    height: 70px;
+    width: 445px;
+    line-height: 35px;
+    margin-top: 30px;
+    font-size: 21px;
+}
+.discover__button{
+    color: #FFFFFF;
+    background-color: #10B981;
+    width: 263px;
+    height: 70px;
+    font-size: 21px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.discover__reviews{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.discover__avatars{
+    display: flex;
+}
+.discover__avatars img{
+    width: 60px;
+    height: 60px;
+    margin-left: -20px;
+    
+  
+}
+.discover__reviews-text{
+    font-size: 26px;
+    line-height: 35px;
+    color: #2B2626;
+    align-items: center;
+    display: flex;
+}
+.discover__image{
+    position: relative;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+}
+.discover__circle-text{
+    position: absolute;
+    top: 10px;
+}
+.discover__product{
+    position: relative;
+    width: 272px;
+    height: 477px;
+    right: 120px;
+    top: 40px;
+    background-color: #ECFEF4;
+    border-radius: 136px;
+    align-items: center;
+    display: flex;
+}
+.discover__product p{
+    position: absolute;
+    color: #2B2626;
+    transform: translateX(-50%);
+    bottom: 30px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+}
+.discover__product img{
+    width: 280px;
+    height: 299px;
+}
+.discover__video{
+   position: relative;
+   top: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.discover__video p{
+    font-size: 21px;
+    margin-top: 4px;
+}
+.discover__video img{
+border-radius: 50%;
+}
+.footer{
+    margin: 0 auto;
+    width: 1068px;
+    font-family: 'DM Sans';
+}
+.footer__main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 80px;
+   
+}
+.footer__container{
+    width: 428px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__panel{
+    font-size: 22px;
+    line-height: 100%;
+    
+}
+
+.button__footer-panel{
+    display: flex;
+    align-items: center;
+    line-height: 100%;
+}
+
+.footer__button{
+    width: 175px;
+    height: 50px;
+    margin-left: 40px;
+    border-radius: 2px;
+    background-color: #10B981;
+    color: #FFFFFF;
+}
+
+.line{
+    width: 1068px;
+    height: 1px;
+    background-color: #111111;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footer__links {
+    display: flex;
+    gap: 172px;
+    align-items: flex-start;
+    padding-top: 40px;
+    width: 100%;
+}
+.text{
+    width: 165px;
+    height: 58px;
+    font-size: 22px;
+}
+.footer__email-input{
+    width: 289px;
+    position: relative;
+}
+.footer__email {
+    width: 100%;
+    height: 50px;
+    top: 56px;
+    font-size: 16px;
+    margin-top: 30px;
+    padding-right: 60px;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    
+  
+}
+.footer__email-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 8px;
+    right: 0;
+    top: 30px;
+    display: flex;
+    padding: 25px 25px   ;
+    background-color:  #10B981;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer__email-icon img {
+    width: 7px;
+    height: 10px;
+    display: flex;
+}
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+   
+}
+.paragraph{
+    margin: 0 0 16px 0;
+    color: #10B981;
+    font-size: 17px;
+}
+.footer__list{
+    list-style: none;
+    width: 110px;
+    height: 185px;
+   
+}
+.footer__list-item{
+    margin-bottom: 20px;
+}
+.footer__list-item > a {
+    color: #111111;
+    text-decoration: none;
+    line-height: 100%;
+    font-size: 15px;
+}
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.footer__bottom-links{
+    display: flex;
+    align-items: center;
+    
+}
+.footer__link{
+    color: #111111;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 40px;
+}
+.footer__socials{
+    display: flex; 
+    align-items: center;
+    gap: 40px;
+   
+}
+.section{
+    font-family: 'Montserrat';
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 590px;
+    padding: 0 90px;
+    margin-top: 30px;
+    background-color: #845EC2;
+}
+.section__panel{
+    position: relative;
+    width: 623px;
+    padding-left: 30px;
+    
+}
+.section__panel-text{
+    position: absolute;
+    left: 0px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+    color: transparent; -webkit-text-stroke: 1px #FFFFFF;
+}
+.section__images {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-top: 100px;
+}
+.product__image{
+    width: 160px;
+    border-radius: 179px;
+}
+.product__image:nth-child(2) {
+    
+    transform: translateY(-55px);
+    position: relative;
+    z-index: 2;
+}
+.section__price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 31px;
+    color: #FFFFFF;
+
+}
+.section__price-value{
+    font-weight: 600;
+    font-size: 31px;
+    color: #FFFFFF;
+}
+.section__text {
+    width: 560px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.section__paragraph{
+    width: 560px;
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+    
+}
+.section__description{
+   max-width: 400px;
+   line-height: 35px;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+.section__action{
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    margin-top: 35px;
+}
+.section__button-cart{
+    color: #FFFFFF;
+    background-color: #10B981;
+    font-weight: 600;
+    width: 263px;
+    height: 70px;
+    font-size: 21px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section__text-View-more{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.top__sellers{
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 830px;
+    margin-top: 90px;
+    
+}
+.top__sellers h2{
+    text-align: center;
+    font-size: 44px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #2B2626;
+}
+
+.top__sellers-tab{
+    text-align: center;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+.top__sellers-tab-Picks{
+    color: #FFFFFF;
+    width: 177px;
+    height: 91px;
+    background-color: #10B981;
+    font-weight: 600;
+    font-size: 26px;  
+    border-radius: 100%;
+    
+    
+}
+
+.top__sellers-tab-Watches{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 54px;
+}
+
+.product-cards__block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+  
+    box-sizing: border-box;
+    margin-top: 90px;
+    
+   
+    
+}
+.product-cards__block:nth-child(2) .product-cards__data{
+    background-color: #C9F2FF;
+}
+.product-cards__block:nth-child(3) .product-cards__data{
+    background-color: #E5D5FF;
+}
+.product-cards__data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    border-radius: 15px;
+    padding: 20px;
+    
+    
+    box-sizing: border-box;
+    background-color: #ECFEF4;
+}
+
+.product-cards__photo {
+    width: 196px;
+    height: 190px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.circle__top-sellers{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    
+    background-color: #10B981;
+    display: flex;
+    right: 20px;
+    top: 13px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    
+}
+.product-cards__block:nth-child(3) .circle__top-sellers{
+    background-color: #845EC2;
+}
+
+.product-cards__title {
+    padding: 30px;
+    width: 320px;
+    height: 165px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 25px; 
+    background-color: #FFFFFF;
+}
+.product-cards__title-items{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+.product-cards__description {
+    color: #888888;
+    font-size: 11px;
+    padding-left: 13px;
+}
+
+.product-cards__price {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+    color: #2B2626;
+    
+}
+
+.product-card__button{
+    color: #FFFFFF;
+    background-color: #10B981;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    
+}
+.product-cards__stars{
+    display: flex;
+    gap: 2px;
+}
+.product-cards__star{
+    width: 17px;
+    height: 17px;
+}
+.product-cards__rating{
+    display: flex;
+    align-items: center;
+    padding: 11px 0;
+}
+.product-cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.trending-earphones{
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 830px;
+    margin-top: 90px;
+}
+
+.trending-earphones h2{
+    text-align: center;
+    font-size: 44px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #2B2626;
+}
+
+.trending-earphones__tab{
+    text-align: center;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+.trending-earphones__Earbuds{
+    color: #FFFFFF;
+    width: 177px;
+    height: 91px;
+    background-color: #10B981;
+    
+    font-size: 26px;  
+    border-radius: 100%;
+    
+    
+}
+.trending-earphones__Wireless{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 65px;
+}
+.trending-earphones__Wired{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 54px;
+}
+.product-cards__block-earphones {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+  
+    box-sizing: border-box;
+    margin-top: 90px;
+    
+   
+    
+}
+.product-cards__block-earphones:nth-child(2) .product-cards__data-earphones{
+    background-color: #E8F9FF;
+    
+}
+.product-cards__block-earphones:nth-child(3) .product-cards__data-earphones{
+    background-color:  #D3FBFB;
+
+}
+.product-cards__data-earphones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #E0EFFF;
+}
+
+.product-cards__photo-earphones {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle__trending-earphones{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    
+    display: flex;
+    right: 20px;
+    top: 13px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    
+}
+.product-cards__block-earphones:nth-of-type(3) .circle__trending-earphones{
+    background-color: #08BDBE;
+}
+.product-cards__block-earphones:nth-of-type(1) .circle__trending-earphones{
+    background-color:  #10B981;
+}
+
+.product-cards__title-earphones  {
+    padding: 30px;
+    width: 320px;
+    height: 165px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 25px; 
+    background-color: #FFFFFF;
+}
+.product-cards__title-items-earphones {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+.product-cards__description-earphones  {
+    color: #888888;
+    font-size: 11px;
+    padding-left: 13px;
+}
+
+.product-cards__price-earphones  {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+    color: #2B2626;
+    
+}
+
+.product-card__button-earphones {
+    color: #FFFFFF;
+    background-color: #10B981;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    
+}
+.product-cards__stars-earphones {
+    display: flex;
+    gap: 2px;
+}
+.product-cards__star-earphones {
+    width: 17px;
+    height: 17px;
+}
+.product-cards__rating-earphones {
+    display: flex;
+    align-items: center;
+    padding: 11px 0;
+}
+.product-cards__earphones {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.airdrop{
+    width: 100%;
+    height: 765px;
+    font-family: 'Montserrat';
+    margin-top: 130px;
+}
+.airdrop h2{
+    text-align: center;
+    font-size: 44px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #2B2626;
+    margin-bottom: 120px;
+
+}
+.section__panel-airdrop{
+    background-color: #845EC2;
+    width: 100%;
+    height: 561px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.section__text-airdrop{
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.section__paragraph-airdrop{
+    font-size: 60px;
+    color: #FFFFFF;
+    
+}
+
+.section__description-airdrop{
+    width: 470px;
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 35px;
+}
+.section__button-cart-airdrop{
+    color: #FFFFFF;
+    background-color: #10B981;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__images-aidrop{
+    display: flex;
+    gap: 45px;
+    width: 521px;
+    height: 465px;
+}
+.product__image-airdrop{
+    height: 238px;
+    height: 418px;
+}
+.product__image-airdrop:nth-child(2){
+    transform: translateY(40px);
+}
+.section__action-airdrop{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.section__price-airdrop{
+    color: #FFFFFF;
+    font-size: 31px;
+}
+.section__price-airdrop span{
+    font-size: 31px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.section__colors-airdrop{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    
+}
+.section__colors-airdrop-black{
+    background-color: #111111;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #FF0000;
+}
+.section__colors-airdrop-yellow{
+    background-color: #FFF500;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: block;
+}
+.section__colors-airdrop-blue{
+    background-color: #4484FF;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: block;
+}
+.section__text-explore-more{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 77px;
+}
