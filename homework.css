@@ -206,7 +206,6 @@ button {
 .discover__content h1{
     font-size: 64px;
     width: 500px;
-    height: 156px;
     color: #2B2626;
 
 }
@@ -248,8 +247,7 @@ button {
     font-size: 26px;
     line-height: 35px;
     color: #2B2626;
-    align-items: center;
-    display: flex;
+   
 }
 .discover__image{
     position: relative;
@@ -259,10 +257,20 @@ button {
     justify-content: center;
     width: 420px;
 }
-.discover__circle-text{
+.star{
     position: absolute;
-    top: 10px;
+    width: 53px;
+    height: 53px;
 }
+.star-1{
+    top: 10px;
+    left: -100px;
+}
+.star-2{
+    bottom: -90px;
+    right: 150px;
+}
+
 .discover__product{
     position: relative;
     width: 272px;
